@@ -21,7 +21,7 @@ export class mangadexClass extends Scraper {
 		// than doing it at the top. This took... many hours. Thanks Pandawan!
 		const { resultCount } = {
 			...options,
-			resultCount: 50,
+			resultCount: 100,
 		};
 
 		let pageUrl: string;
